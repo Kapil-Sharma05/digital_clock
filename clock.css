@@ -1,0 +1,70 @@
+body
+{
+background-image: url("img2.jpg");
+margin: 0px;
+height: 100vh;
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+display: flex;
+color: aliceblue;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+
+/* opacity: 0.8; */
+}
+h1
+{
+    
+ -webkit-text-fill-color: rgb(155, 6, 75);
+text-transform: uppercase;
+color: rgba(240, 220, 223, 0.959);
+font-size: 20px;
+font-family: sans-serif;
+letter-spacing: 5px;
+/* text-shadow: 20px -15px 40px rgb(12, 1, 66); */
+ box-shadow: 10px 10px 25px rgba(112, 12, 25, 0.795);
+
+
+}
+.clock
+{
+display: flex;
+}
+.clock div
+{
+margin: 10px;
+position: relative;
+
+}
+.clock span
+{
+display: flex;
+background-color: rgb(15, 77, 23);
+/* opacity: 0.8; */
+/* opacity: 0.8; */
+font-size: 40px;
+justify-content: center;
+height: 60px;
+align-items: center;
+width: 100px;
+border-radius: 15px 20px;
+box-shadow: 5px 10px 25px rgb(227, 228, 205);
+/* box-shadow: 10px 10px 45px rgb(236, 149, 35); */
+}
+.clock .text
+{
+background-color: rgb(59, 65, 60);
+opacity: 1;
+text-align: right;
+font-size: 15px;
+height: 20px;
+border-radius: 15px 20px;
+/* border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px; */
+
+letter-spacing: 2px;
+}
